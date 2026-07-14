@@ -1,16 +1,130 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 💼 Sammar Iqbal – Developer Portfolio
 
-Currently, two official plugins are available:
+A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, experience, and services as a Full Stack Software Engineer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🌐 https://your-portfolio-link.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Responsive design for all devices
+- Modern dark UI with smooth animations
+- Animated typing effect
+- About Me section
+- Skills showcase
+- Projects portfolio
+- Services section
+- Contact section
+- Resume download
+- Fast performance with Vite
+- SEO-friendly structure
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React Type Animation
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── assets/
+│── components/
+│── pages/
+│── App.jsx
+│── main.jsx
+public/
+package.json
+README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📸 Website Sections
+
+- Hero
+- About
+- Skills
+- Services
+- Portfolio
+- Contact
+
+---
+
+## 📬 Contact
+
+**Sammar Iqbal**
+
+- 💼 Full Stack Software Engineer
+- 🌐 Portfolio: https://your-portfolio-link.vercel.app
+- 💼 LinkedIn: https://linkedin.com/in/your-profile
+- 📧 Email: your@email.com
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to give it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+© 2026 Sammar Iqbal. All Rights Reserved.
