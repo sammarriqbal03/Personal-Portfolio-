@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { FiMapPin } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
-import profileImg from 'src="/images/profile.jpg"'
 
 function About() {
   return (
@@ -18,7 +17,8 @@ function About() {
           className="w-40 h-40 md:w-48 md:h-48 shrink-0 relative rounded-full overflow-hidden border-2 border-[#D4AF37] shadow-lg shadow-[#D4AF37]/20 mx-auto md:mx-0"
         >
           <span className="absolute top-0 left-0 w-full h-[2px] gradient-bar z-10"></span>
-          <img src={profileImg}
+          <img
+            src="/images/profile.jpg"
             alt="Sammar Iqbal"
             className="w-full h-full object-cover object-center"
           />
@@ -34,7 +34,6 @@ function About() {
             transition={{ duration: 0.5 }}
             className="font-mono text-[#6366F1] text-sm mb-2"
           >
-           
           </motion.p>
 
           <motion.h2
@@ -89,7 +88,7 @@ function About() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-gray-600 leading-relaxed mb-4"
           >
-            I'm a Software Engineer  and founder of Techverse Agency (Remote) working as a Full Stack Web Developer with the
+            I'm a Software Engineer and founder of Techverse Agency (Remote) working as a Full Stack Web Developer with the
             MERN stack, a Mobile App Developer using Flutter, and a UI/UX Designer.
             I build responsive websites, cross-platform mobile apps, and clean,
             user-focused interfaces.
