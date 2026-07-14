@@ -42,22 +42,22 @@ function Hero() {
           </div>
 
           {/* BUTTONS */}
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              to="/portfolio"
-              className="inline-flex items-center justify-center h-14 w-full sm:w-auto min-w-[220px] px-6 rounded-lg bg-[#D4AF37] text-[#0B0F1A] text-lg font-semibold transition duration-300 hover:bg-[#F5D576]"
-            >
-              Explore Projects
-            </Link>
+          <div className="flex flex-wrap gap-4">
+  <Link
+    to="/portfolio"
+    className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg bg-[#D4AF37] text-[#0B0F1A] hover:bg-[#F5D576] transition"
+  >
+    Explore Projects
+  </Link>
 
-            <a
-              href="/Sammar%20Resume.pdf"
-              download="Sammar-Iqbal-Resume.pdf"
-              className="inline-flex items-center justify-center h-14 w-full sm:w-auto min-w-[220px] px-6 rounded-lg border border-white/15 text-white text-lg font-semibold transition duration-300 hover:border-[#D4AF37] hover:text-[#D4AF37]"
-            >
-              Download Resume
-            </a>
-          </div>
+  <a
+    href="/Sammar%20Resume.pdf"
+    download="Sammar-Iqbal-Resume.pdf"
+    className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg border border-white/15 text-white hover:border-[#D4AF37] hover:text-[#D4AF37] transition"
+  >
+    Download Resume
+  </a>
+</div>
         </div>
 
         {/* RIGHT SIDE */}
