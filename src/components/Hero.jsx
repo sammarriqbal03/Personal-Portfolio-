@@ -1,10 +1,9 @@
-import { TypeAnimation } from 'react-type-animation'
-import { Link } from 'react-router-dom'
+import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
     <section className="bg-[#0B0F1A] py-20 px-6">
-
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT CONTENT */}
@@ -21,54 +20,63 @@ function Hero() {
             Software Engineer
           </h1>
 
-          <div className="font-mono text-[#8B93A7] text-base md:text-lg mb-8 min-h-[2rem] flex items-center">
+          <div className="font-mono text-[#8B93A7] text-base md:text-lg mb-8 min-h-[40px]">
             <TypeAnimation
               sequence={[
-                'Full Stack Web Developer', 2000,
-                'MERN Stack Developer', 2000,
-                'Mobile App Developer', 2000,
-                'UI/UX Designer', 2000,
+                "Full Stack Web Developer",
+                2000,
+                "MERN Stack Developer",
+                2000,
+                "Mobile App Developer",
+                2000,
+                "UI/UX Designer",
+                2000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              style={{
+                display: "inline-block",
+              }}
             />
           </div>
 
-          <div className="flex flex-wrap gap-4">
+          {/* BUTTONS */}
+          <div className="flex flex-col sm:flex-row gap-4">
             <Link
               to="/portfolio"
-              className="bg-[#D4AF37] text-[#0B0F1A] px-6 py-3 rounded-lg font-medium hover:bg-[#F5D576] transition"
+              className="inline-flex items-center justify-center h-14 w-full sm:w-auto min-w-[220px] px-6 rounded-lg bg-[#D4AF37] text-[#0B0F1A] text-lg font-semibold transition duration-300 hover:bg-[#F5D576]"
             >
               Explore Projects
             </Link>
 
             <a
-             href="/Sammar%20Resume.pdf"
-  download="Sammar-Iqbal-Resume.pdf"
-  className="border border-white/15 text-white px-6 py-3 rounded-lg font-medium hover:border-[#D4AF37] hover:text-[#D4AF37] transition"
->
-  Download Resume
-</a>
+              href="/Sammar%20Resume.pdf"
+              download="Sammar-Iqbal-Resume.pdf"
+              className="inline-flex items-center justify-center h-14 w-full sm:w-auto min-w-[220px] px-6 rounded-lg border border-white/15 text-white text-lg font-semibold transition duration-300 hover:border-[#D4AF37] hover:text-[#D4AF37]"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
 
-        {/* RIGHT SIDE (CODE CARD) */}
+        {/* RIGHT SIDE */}
         <div className="bg-[#131A2B] rounded-xl border border-white/10 overflow-hidden shadow-2xl">
 
           <div className="flex items-center gap-2 px-4 py-3 bg-[#1B2540] border-b border-white/10">
             <span className="w-3 h-3 rounded-full bg-red-400/70"></span>
             <span className="w-3 h-3 rounded-full bg-yellow-400/70"></span>
             <span className="w-3 h-3 rounded-full bg-green-400/70"></span>
+
             <span className="font-mono text-xs text-[#8B93A7] ml-2">
               developer.js
             </span>
           </div>
 
-          <div className="p-6 font-mono text-sm leading-relaxed">
+          <div className="p-6 font-mono text-sm md:text-base leading-relaxed">
             <p>
-              <span className="text-[#8B93A7]">const</span>{' '}
-              <span className="text-[#D4AF37]">developer</span> = {'{'}
+              <span className="text-[#8B93A7]">const</span>{" "}
+              <span className="text-[#D4AF37]">developer</span> = {"{"}
             </p>
 
             <p className="pl-4">
@@ -81,27 +89,28 @@ function Hero() {
 
             <p className="pl-4">
               stack: [
-              <span className="text-green-400">'MERN'</span>,{' '}
+              <span className="text-green-400">'MERN'</span>,{" "}
               <span className="text-green-400">'Flutter'</span>
               ],
             </p>
 
             <p className="pl-4">
-              focus: <span className="text-green-400">'UI/UX + Development'</span>,
+              focus:{" "}
+              <span className="text-green-400">
+                'UI/UX + Development'
+              </span>,
             </p>
 
             <p className="pl-4">
               available: <span className="text-[#D4AF37]">true</span>
             </p>
 
-            <p>{'}'}</p>
+            <p>{"}"}</p>
           </div>
         </div>
-
       </div>
-
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
