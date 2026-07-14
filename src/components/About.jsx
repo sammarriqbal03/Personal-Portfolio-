@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { FiMapPin } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
-import profileImg from '../assets/images/profile.jpg'
+import profileImg from 'src="/images/profile.jpg"'
 
 function About() {
   return (
