@@ -122,8 +122,8 @@ function Contact() {
           <div className="flex justify-center gap-6 text-2xl text-gray-500 pt-4">
             <a href="mailto:sammarriqbal03@gmail.com" className="hover:text-[#6366F1] transition"><FiMail /></a>
             <a href="https://github.com/sammarriqbal03" target="_blank" rel="noopener noreferrer" className="hover:text-[#6366F1] transition"><FiGithub /></a>
-            <a href="https://www.linkedin.com/in/sammar-iqbal-84a394357?" target="_blank" rel="noopener noreferrer" className="hover:text-[#6366F1] transition"><FiLinkedin /></a>
-            <a href="https://wa.me/923286230679" target="_blank" rel="noopener noreferrer" className="hover:text-[#6366F1] transition"><FaWhatsapp /></a>
+            <a href="https://www.linkedin.com/in/samar-iqbal-84a394357?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" className="hover:text-[#6366F1] transition"><FiLinkedin /></a>
+            <a href="https://wa.me/923425119908" target="_blank" rel="noopener noreferrer" className="hover:text-[#6366F1] transition"><FaWhatsapp /></a>
           </div>
         </div>
       </div>
