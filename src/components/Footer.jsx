@@ -27,7 +27,7 @@ function Footer() {
           <div className="flex flex-col gap-2 text-sm text-[#8B93A7]">
             <a href="mailto:sammarriqbal03@gmail.com" className="hover:text-white transition">Email</a>
             <a href="https://github.com/sammarriqbal03" className="hover:text-white transition">GitHub</a>
-            <a href="https://www.linkedin.com/in/sammar-iqbal-84a394357?" className="hover:text-white transition">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/samar-iqbal-84a394357?" className="hover:text-white transition">LinkedIn</a>
           </div>
         </div>
       </div>
